@@ -9,4 +9,6 @@ valor_da_conta = float(valor_da_conta)
 numero_de_pessoasna_mesa = input("digite o numero de pessoas na messa:")
 numero_de_pessoasna_mesa = int(numero_de_pessoasna_mesa)
 valor_da_conta_por_pessoa = valor_da_conta / numero_de_pessoasna_mesa
+print(f"O valor por pessoa é: R$ {valor_da_conta_por_pessoa:.2f}")
+
 

@@ -11,4 +11,10 @@ Escreva um programa que leia:
 Calcule e mostre na tela o Custo Por Clique (CPC) médio da campanha formatado em reais.
 """
 
-# TODO: Desenvolva o algoritmo abaixo:
+# TODO: senvolva o algoritmo abaixo:
+valor_total_investido = input("Digite o valor total investido na campanha (em R$): ")
+valor_total_investido = float(valor_total_investido)
+numero_total_cliques = input("Digite o número total de cliques obtidos: ")
+numero_total_cliques = int(numero_total_cliques)
+cpc_medio = valor_total_investido / numero_total_cliques
+print(f"O CPC médio da campanha é: R$ {cpc_medio:.2f}")
