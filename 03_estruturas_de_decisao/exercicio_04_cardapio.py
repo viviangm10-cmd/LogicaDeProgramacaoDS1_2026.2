@@ -34,4 +34,4 @@ elif case == "5":
     total = 1.50 * quantity
     print(f"Total a pagar: R$ {total:.2f}")
 else:  
- print("Código inválido")
+    print("Código inválido")

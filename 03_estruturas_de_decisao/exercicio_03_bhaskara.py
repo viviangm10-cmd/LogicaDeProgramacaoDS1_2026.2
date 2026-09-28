@@ -13,7 +13,7 @@ valor_A = float(input("digite o valor de A: "))
 valor_B = float(input("digite o valor de B: "))
 valor_C = float(input("digite o valor de C: "))
 
-delta = valor_B**2 - 4 * valor_A * valor_C 
+delta = (valor_B**2) - (4 * valor_A * valor_C)
 
 if valor_A == 0 or delta < 0:
     print("Impossivel calcular") 
