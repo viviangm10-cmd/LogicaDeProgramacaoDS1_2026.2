@@ -10,6 +10,43 @@ Leia 3 valores de ponto flutuante (A, B e C) de uma equação do 2º grau.
 
 # TODO: Desenvolva o algoritmo abaixo:
 valor_A = float(input("digite o valor de A: "))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 valor_B = float(input("digite o valor de B: "))
 valor_C = float(input("digite o valor de C: "))
 
