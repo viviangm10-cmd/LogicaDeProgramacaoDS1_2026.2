@@ -25,6 +25,13 @@ while True:
     tentativa = input("Digite a senha de acesso: ")
     if tentativa == senha_correta:
         print("Acesso Permitido")
+<<<<<<< HEAD
         break  # Encerra o loop quando a senha correta é digitada
     else:
         print("Senha Invalida") 
+=======
+        break
+    else:
+        print("Senha Invalida")
+
+>>>>>>> 0c3d8b63a287f8e7c815c276ae1ad60d6cfdc3e8
